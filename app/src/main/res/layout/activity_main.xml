@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textsize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BTN_LOGIN"
+        android:layout_width="138dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="439dp"
+        android:fontFamily="casual"
+        android:hint="Login"
+        android:text="LOG IN"
+        android:textColor="@color/material_dynamic_secondary80"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#154267" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="215dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="635dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint=" Trucking System"
+        android:inputType="text"
+        android:text="Car Trucking Sytem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="123dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="414dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="269dp"
+        android:fontFamily="casual"
+        android:hint="sign in"
+        android:text="SIGN IN"
+        android:textColor="#730E30"
+        android:textColorHint="@color/cardview_light_background"
+        app:iconTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

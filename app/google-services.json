@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "435840212679",
+    "project_id": "myprojectnjambi",
+    "storage_bucket": "myprojectnjambi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435840212679:android:6d5b936ad72b026c35a8e2",
+        "android_client_info": {
+          "package_name": "com.example.myproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435840212679-f71q8njv3bi4nielon7dshj0u31lap5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSa6Pw1I-dM66DSLE0or5Li3XE2LOpjfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435840212679-f71q8njv3bi4nielon7dshj0u31lap5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
