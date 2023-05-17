@@ -8,28 +8,9 @@
     android:background="#CDDC39"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/BTN_LOGIN"
-        android:layout_width="138dp"
-        android:layout_height="108dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="239dp"
-        android:layout_marginEnd="258dp"
-        android:layout_marginBottom="439dp"
-        android:fontFamily="casual"
-        android:hint="Login"
-        android:text="LOG IN"
-        android:textColor="@color/material_dynamic_secondary80"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:rippleColor="#154267" />
-
     <EditText
         android:id="@+id/editTextText3"
-        android:layout_width="215dp"
+        android:layout_width="235dp"
         android:layout_height="64dp"
         android:layout_marginStart="86dp"
         android:layout_marginTop="51dp"
@@ -40,28 +21,41 @@
         android:hint=" Trucking System"
         android:inputType="text"
         android:text="Car Trucking Sytem"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="534dp"
+        android:text="LOGIN"
+        android:textColor="#6607FF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="123dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="414dp"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="269dp"
-        android:fontFamily="casual"
-        android:hint="sign in"
+        android:id="@+id/btn_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="SIGN IN"
-        android:textColor="#730E30"
-        android:textColorHint="@color/cardview_light_background"
-        app:iconTint="#2196F3"
+        android:textSize="30sp"
+        android:textColor="#7E0B22"
+        tools:layout_editor_absoluteX="125dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="266dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

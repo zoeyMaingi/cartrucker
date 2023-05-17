@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -15,9 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Myproject"
         tools:targetApi="31">
-        <activity
-            android:name=".MapsActivity"
-            android:exported="true" />
+
         <activity
             android:name=".SigninActivity"
             android:exported="false" />
@@ -35,14 +34,15 @@
         </activity>
 
         <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="${MAPS_API_KEY}" />
+            android:name="com.google.android.geo.API_KEY" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
 
-        <activity android:name=".MapsActivity">
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
@@ -58,6 +58,7 @@
             <category android:name="android.intent.category.BROWSABLE"/>
             <data android:scheme="http"/>
             </intent-filter>
+
             </activity>
     </application>
 

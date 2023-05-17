@@ -4,20 +4,21 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
+import android.widget.EditText
+
 
 class MainActivity : AppCompatActivity() {
-    lateinit var textViewcar: TextView
+    lateinit var edtviewcar:EditText
     lateinit var buttonlogin: Button
     lateinit var buttonsignin: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        textViewcar=findViewById(R.id.editTextText3)
-        buttonlogin=findViewById(R.id.BTN_LOGIN)
-        buttonsignin=findViewById(R.id.button3)
+        edtviewcar=findViewById(R.id.editTextText3)
+        buttonlogin=findViewById(R.id.button4)
+        buttonsignin=findViewById(R.id.btn_button6)
 
-        textViewcar.setOnClickListener {
+        edtviewcar.setOnClickListener {
             val intent=Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
